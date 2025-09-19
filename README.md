@@ -11,7 +11,7 @@ Barrier (https://sourceforge.net/projects/barrier.mirror/): O Barrier é um soft
 No link anterior é possivel baixar o instalador executável para Windows. A versão utilizada foi baixada através do link: `https://sourceforge.net/projects/barrier.mirror/files/v2.4.0/BarrierSetup-2.4.0-release.exe/download`.
 
 ### Configuração na máquina Server
-Após a instalação, o programa deve ser executado, deve ser selecionada a opção "Server", após deve clicar no botão "Configurar servidor", será exibida uma nova janela que deverá clicar no ícone de monitor no canto superior da janela e arrastar para a parte inferior colocando no local onde estão posicionado os monitores dos computadores utilizados. É possivel alterar o nome do monitor para que facilite a identificação das máquinas. Após configurar o monitor, deve ser desabilitado a utilização do SSL, para isso, deve clicar no Menu "Barrier", em seguida no item "Change Settings", deve desabilitar a opção "Enable SSL" e clicar no botao "OK". Após a configuração, pode fechar a janela, clicar em "Aplicar" e depois em "Iniciar".
+Após a instalação, o programa deve ser executado, deve ser selecionada a opção "Server", após deve clicar no botão "Configurar servidor", será exibida uma nova janela que deverá clicar no ícone de monitor no canto superior da janela e arrastar para a parte inferior colocando no local onde estão posicionado os monitores dos computadores utilizados. É possivel alterar o nome do monitor para que facilite a identificação das máquinas. Após configurar o monitor, pode fechar a janela, clicar em "Aplicar" e depois em "Iniciar".
 
 ### Erro apresentado na máquina Server
 Após a instalação e execução do programa, foi apresentado o erro de Certificado inexistente, conforme log apresentado pelo programa.
