@@ -52,3 +52,8 @@ A ferramenta pode ser instalada diretamente pela Central de Aplicações, pesqui
 
 ### Configuração na máquina Client
 Após a instalação, o programa deve ser executado, deve ser selecionada a opção "Client", caso a opção "Auto config" esteja habilitada mas não funcione, deve ser desabilitada para que seja possivel preencher o endereço IP da máquina Servidor. Após informar o endereço IP, deve clicar no botão "Aplicar" e em seguida no botão "Iniciar".
+
+---
+
+## Arquivo de Recursos: Tutorial Barrier - Autor: Giuseppe C. Cervo
+Para facilitar, foi localizado um arquivo PDF com o tutorial para instalação e configuração da ferramente Barrier. O arquivo encontra-se na pasta "recursos" deste repositório, tendo sido encontrado na internet através do link: https://www.ufsm.br/app/uploads/sites/762/2020/11/Tutorial-Barrier.pdf.
