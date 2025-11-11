@@ -1,3 +1,4 @@
+![Ícone Barrier](./recursos/icone.png)
 # barrier-compartilhamento-teclado-mouse
 Repositório com a configuração para compartilhamento de teclado e mouse entre duas máquinas na mesma rede.
 
@@ -11,9 +12,9 @@ Barrier (https://sourceforge.net/projects/barrier.mirror/): O Barrier é um soft
 No link anterior é possivel baixar o instalador executável para Windows. A versão utilizada foi baixada através do link: `https://sourceforge.net/projects/barrier.mirror/files/v2.4.0/BarrierSetup-2.4.0-release.exe/download`.
 
 ### Configuração na máquina Server
-Após a instalação, o programa deve ser executado, deve ser selecionada a opção "Server", após deve clicar no botão "Configurar servidor", será exibida uma nova janela que deverá clicar no ícone de monitor no canto superior da janela e arrastar para a parte inferior colocando no local onde estão posicionado os monitores dos computadores utilizados. É possivel alterar o nome do monitor para que facilite a identificação das máquinas. Após configurar o monitor, pode fechar a janela, clicar em "Aplicar" e depois em "Iniciar".
+Após a instalação, o programa deve ser executado, deve ser selecionada a opção "Server", após deve clicar no botão "Configurar servidor", será exibida uma nova janela que deverá clicar no ícone de monitor no canto superior da janela e arrastar para a parte inferior colocando no local onde estão posicionado os monitores dos computadores utilizados. É possivel alterar o nome do monitor para que facilite a identificação das máquinas, o nome do monitor deve ser o nome da máquina cliente. Após configurar o monitor, pode fechar a janela, clicar em "Aplicar" e depois em "Iniciar".
 
-### Erro apresentado na máquina Server
+### Erro de SSL apresentado após a instalação da ferramenta (Máquinas Server e Cliente)
 Após a instalação e execução do programa, foi apresentado o erro de Certificado inexistente, conforme log apresentado pelo programa.
 ```
 INFO: OpenSSL 1.0.2l  25 May 2017
@@ -46,6 +47,12 @@ $CertBase64
 # Output to file
 $Pem | Out-File -FilePath $env:LOCALAPPDATA\Barrier\SSL\Barrier.pem -Encoding Ascii
 ```
+
+### Desabilitando a opção SSL (Máquinas Server e Cliente)
+Para facilitar o uso, foi desabilitado a opção do SSL, visto que os computadores estão em uma rede local. Para isso, deve seguir os passos abaixo:
+Acessar o menu "Barrier", depois clicar em "Change Settings". Será aberta uma nova janela, sendo necessário desmarcar a opção "Enable SSL", em seguida clica em "OK".
+
+De volta a tela principal, deve clicar no botão "Aplicar".
 
 ## Instalação no Ubuntu (que será chamada de máquina Client)
 A ferramenta pode ser instalada diretamente pela Central de Aplicações, pesquisar pelo programa `Barrier` e deve ser selecionado o de ícone: ![Ícone Barrier](./recursos/icone.png)
